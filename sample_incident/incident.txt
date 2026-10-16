@@ -1,0 +1,4 @@
+INCIDENT-2026-1014: High error rates in payment processing.
+Users report HTTP 504 Gateway Timeouts when attempting to finalize checkout.
+The incident began around 10:05 UTC after a configuration update to the cache layer.
+Logs and service configurations are available in the attached directory.

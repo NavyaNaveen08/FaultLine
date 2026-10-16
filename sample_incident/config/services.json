@@ -1,0 +1,15 @@
+{
+  "service": "checkout-service",
+  "dependencies": {
+    "cache": {
+      "host": "redis-cluster-prod",
+      "port": 6379,
+      "max_connections": 5,
+      "timeout_ms": 5000
+    },
+    "payment_gateway": {
+      "host": "stripe-api.internal",
+      "timeout_ms": 3000
+    }
+  }
+}
