@@ -47,6 +47,8 @@ eval_results/
 *.eval.json
 *.jsonl
 *.log
+!sample_incident*/logs/*.log
+
 
 # IDE & OS
 .vscode/

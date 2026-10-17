@@ -1,0 +1,6 @@
+2026-10-16T14:20:00Z [INFO] order-service active pool_size=10 statement_timeout=3000ms
+2026-10-16T14:23:45Z [WARN] Connection acquisition wait queue growing: 18 threads waiting (max_wait: 4000ms)
+2026-10-16T14:24:02Z [ERROR] deadlock detected: Process 4108 waits for ExclusiveLock on row of table 'inventory'; Process 4112 waits for ExclusiveLock on row of table 'orders'
+2026-10-16T14:24:05Z [ERROR] Transaction rollback: ERROR 40P01 (deadlock_detected) on transaction tx_99214
+2026-10-16T14:24:10Z [ERROR] DB connection pool exhausted: Active=10, Idle=0, Waiting=24
+2026-10-16T14:24:12Z [ERROR] HTTP 500 Internal Server Error returned for POST /orders/create

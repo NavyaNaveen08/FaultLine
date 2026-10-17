@@ -1,0 +1,6 @@
+2026-10-15T08:00:00Z [INFO] auth-service initialized version 3.2.0 memory_limit=512MB
+2026-10-15T08:12:10Z [WARN] JWKS cache map size exceeded threshold: 85000 entries (heap: 480MB / 512MB)
+2026-10-15T08:14:02Z [ERROR] Token verification latency spiked: 2450ms (threshold: 2000ms) for client_id=mobile_app
+2026-10-15T08:14:15Z [ERROR] HTTP 503 Service Unavailable returned on POST /oauth/verify - verification timeout
+2026-10-15T08:14:30Z [FATAL] java.lang.OutOfMemoryError: Java heap space during JWKS signature cache expansion
+2026-10-15T08:14:31Z [WARN] Process terminated with exit code 137 (OOMKilled)

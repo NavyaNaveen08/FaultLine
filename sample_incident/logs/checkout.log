@@ -1,0 +1,6 @@
+2026-10-14T10:00:00Z [INFO] checkout-service initialized version 2.4.1
+2026-10-14T10:04:55Z [INFO] Received request POST /checkout/pay user_id=u_1001
+2026-10-14T10:05:00Z [WARN] Cache connection latency spiked: 2500ms (threshold: 200ms)
+2026-10-14T10:05:05Z [ERROR] Failed to fetch session token from redis-cache: ReadTimeout after 5000ms
+2026-10-14T10:05:06Z [ERROR] HTTP 504 returned to client for transaction tx_88192
+2026-10-14T10:05:10Z [ERROR] Connection pool exhausted for redis-cache. Available: 0, Max: 5
