@@ -35,6 +35,7 @@ env/
 
 # Testing & Coverage
 .pytest_cache/
+.pytest_temp/
 .coverage
 htmlcov/
 .tox/
@@ -42,6 +43,8 @@ htmlcov/
 # Faultline Artifacts & Traces
 traces/
 reports/
+eval_results/
+*.eval.json
 *.jsonl
 *.log
 

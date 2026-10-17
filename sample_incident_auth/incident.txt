@@ -1,0 +1,4 @@
+INCIDENT-2026-1015: Authentication service latency spike and OOM crashes.
+Users experience authentication failures (HTTP 500/503) and login timeouts.
+The incident began around 08:12 UTC after rolling out JWKS token caching in auth-service v3.2.0.
+Logs and service configurations are available in the attached directory.

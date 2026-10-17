@@ -1,0 +1,4 @@
+INCIDENT-2026-1016: Order placement failures and database connection pool starvation.
+High transaction rollback rates and HTTP 500 errors on checkout and order creation.
+The incident began around 14:22 UTC following database migration 0042_inventory_reservations.
+Logs and service configurations are available in the attached directory.

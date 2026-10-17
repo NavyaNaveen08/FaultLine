@@ -1,0 +1,15 @@
+{
+  "service": "auth-service",
+  "version": "3.2.0",
+  "runtime": {
+    "memory_limit_mb": 512,
+    "max_jwks_cache_entries": 100000,
+    "verification_timeout_ms": 2000
+  },
+  "dependencies": {
+    "identity_provider": {
+      "endpoint": "https://idp.internal/oauth/keys",
+      "poll_interval_sec": 5
+    }
+  }
+}
