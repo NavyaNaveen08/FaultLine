@@ -1,4 +1,4 @@
-# Faultline 🔍
+# Faultline 
 > **Fault-tolerant multi-agent incident investigation harness**
 
 Faultline investigates software incidents by orchestrating specialized AI agents to analyze application logs, error traces, and service configurations. It produces an evidence-backed incident report with root causes, confidence levels, alternatives, and explicit uncertainties.
@@ -338,7 +338,7 @@ No fabricated benchmark numbers or simulated multi-model rankings are claimed. T
 
 ## Time Spent & AI Usage
 
-- **Total Time Spent**: Approximately 14 hours across architecture design, multi-agent orchestrator implementation, security sandboxing, budget enforcement, testing, single-agent baseline comparison, and documentation.
+- **Total Time Spent**: Approximately 4.5 hours across architecture design, multi-agent orchestrator implementation, security sandboxing, budget enforcement, testing, single-agent baseline comparison, and documentation.
 - **AI Tooling Used**: Antigravity IDE and Gemini agentic pair-programming for drafting Pydantic schemas, generating test fixtures, conducting code reviews, and automating regression testing.
 
 ### Incorrect AI Output & Correction Example
